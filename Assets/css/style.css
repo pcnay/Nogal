@@ -1,0 +1,39 @@
+/* Aplicando estilos a la clase de la imagen para que sea más pequeña.*/
+.app-sidebar__user-avatar
+{
+	width: 48px;
+	background:gray;
+	padding:6px;
+}
+.app_sidebar__toggle
+{
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-ms-flex;
+	display:-o-flex;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:15pt; /* Tamaño del icono de libros. */
+}
+.app-sidebar__toggle::before
+{
+	display:none;
+}
+
+.headerRegister
+{
+	background:#009688;
+	color:#FFF; /* Color de letra Blanco */
+}
+
+.headerUpdate
+{
+	background:#007bff;
+	color:#FFF; /* Color de letra Blanco */
+}
+
+.notBlock
+{
+	display:none;
+}
